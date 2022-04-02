@@ -212,8 +212,7 @@ body {
   padding: 10px 32px;
 }
 /* modifying filter */
-.filter li {
-  list-style: none;
+.portfolio-filter li {
   display: inline-block;
 }
 .btn-portfolio {
@@ -225,14 +224,24 @@ body {
   background-color: var(--accent-color);
 }
 /* section about projects */
+.portfolio {
+  padding-top: 100px;
+  padding-bottom: 94px;
+}
 .project-title {
   color: var(--hd-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 .project span {
   line-height: 1.88;
   font-size: 16px;
+}
+.portfolio-pic{
+  margin-bottom: 20px;
 }
