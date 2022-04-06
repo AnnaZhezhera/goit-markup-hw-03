@@ -10,6 +10,8 @@ body {
   --main-text-color: #757575;
   --white-text-color: #ffffff;
   --logo-color: #000000;
+  --border-forheader-color: #ececec;
+  --border-cards-color: #eeeeee;
   --footer-text-color: #ffffff99;
   --dark-bg-color: #2f303a;
   --light-bg-color: #f5f4fa;
@@ -26,7 +28,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 /* 
 цвет заголовков: #212121;
@@ -49,6 +51,7 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid var(--border-forheader-color);
 }
 .main-nav-menu {
   display: flex;
@@ -110,6 +113,10 @@ img {
 }
 .info-nav .link:hover {
   color: var(--accent-color);
+}
+.info-nav .link {
+  display: block;
+  padding: 30px 0;
 }
 /* hero */
 .hero {
@@ -186,6 +193,13 @@ img {
 }
 .team-member:not(:first-child) {
   margin-left: 30px;
+}
+.team-member {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  padding-bottom: 30px;
 }
 .team-member-heading {
   color: var(--hd-text-color);
@@ -308,6 +322,8 @@ img {
 .flex-element {
   width: 370px;
   background-color: var(--white-text-color);
+
+  border: 1px solid var(--border-cards-color);
 
   margin-right: 30px;
   margin-bottom: 30px;
