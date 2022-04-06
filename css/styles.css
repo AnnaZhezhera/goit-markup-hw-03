@@ -224,6 +224,8 @@ img {
 
   margin-top: 0;
   margin-bottom: 0;
+
+  border: 1px solid transparent;
 }
 .footer.logo {
   display: inline-block;
@@ -238,10 +240,10 @@ img {
   margin-bottom: 9px;
   margin-top: 0;
 }
-.footer > .footer-contacts {
+.footer > .footer-contact {
   margin-bottom: 9px;
 }
-.footer-contacts {
+.footer-contact {
   display: inline-block;
   color: var(--footer-text-color);
   font-style: normal;
@@ -251,9 +253,12 @@ img {
 }
 .footer-address:hover,
 .footer-address:focus,
-.footer-contacts:hover,
-.footer-contacts:focus {
+.footer-contact:hover,
+.footer-contact:focus {
   color: var(--accent-color);
+}
+.footer .contacts {
+  margin-bottom: 60px;
 }
 /* Button */
 .button {
