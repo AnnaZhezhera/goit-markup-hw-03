@@ -215,8 +215,8 @@ img {
   font-size: 16px;
   line-height: 1.19;
 }
-/* footer */
-.footer {
+/* section-footer */
+.section-footer {
   background-color: var(--dark-bg-color);
   color: var(--white-text-color);
   font-size: 14px;
@@ -225,7 +225,7 @@ img {
   margin-top: 0;
   margin-bottom: 0;
 
-  border: 1px solid transparent;
+  padding-bottom: 60px;
 }
 .footer.logo {
   display: inline-block;
@@ -235,12 +235,12 @@ img {
   margin-top: 60px;
   margin-bottom: 20px;
 }
-.footer p {
+.section-footer p {
   font-style: normal;
   margin-bottom: 9px;
   margin-top: 0;
 }
-.footer > .footer-contact {
+.section-footer > .footer-contact {
   margin-bottom: 9px;
 }
 .footer-contact {
@@ -256,9 +256,6 @@ img {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-color);
-}
-.footer .contacts {
-  margin-bottom: 60px;
 }
 /* Button */
 .button {
