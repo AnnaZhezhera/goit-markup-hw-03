@@ -340,8 +340,7 @@ img {
   margin-bottom: 0;
 }
 .flex-element-text {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
   border: 1px solid var(--border-cards-color);
   border-top: none;
 }
